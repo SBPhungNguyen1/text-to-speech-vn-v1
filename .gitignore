@@ -1,9 +1,10 @@
+
 # Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 env/
@@ -23,9 +24,18 @@ env/
 Thumbs.db
 desktop.ini
 
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
 # Generated audio files
 audiobooks/
 *.mp3
+
+# Temporary files
+*.tmp
+*.temp
 
 # Logs
 *.log
